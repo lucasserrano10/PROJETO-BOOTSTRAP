@@ -1,0 +1,81 @@
+*{
+    font-family: 'Open sans', sans-serif;
+}
+
+:root{
+    --bg-red-1:#E02500;
+    --bg-red-2:#cccccc97;
+    --bg-red-3:#E15601;
+    --bg-red-3:#613630;
+    --margin-top: 100px;
+}
+
+.logo-text{
+    font-size: 1.8rem;
+    color: var(--bg-red-2);
+    font-weight: 800;
+}
+
+.sub-title{
+    font-size: 2.5rem;
+    color: var(--bg-red-1);
+    font-weight: 800;
+}
+.logo-icon{
+    color: var(--bg-red-1);
+}
+
+.my-mt{
+    margin-top: var(--margin-top);
+}
+
+.nav-item a{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.my-title{
+    color: var(--bg-red-1);
+}
+
+.bg-red-2{
+    background-color: var(--bg-red-2);
+}
+
+.sobre{
+    min-height: 60vh;
+}
+
+.icon{
+    font-size: 60px;
+    color: var(--bg-red-1);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.card{
+    transition: .5s;
+}
+
+.card:hover{
+    background-color: var(--bg-red-2);
+}
+
+.card:hover .icon{
+    transform: scale(1.5);
+}
+
+.icon-social, .icon-contrato{
+    font-size: 2rem;
+    color: var(--bg-red-1);
+    transition: .5s;
+}
+
+.icon-social:hover{
+    color: var(--bg-red-3);
+}
+
+textarea{
+    resize: none;
+    height: 130px;
+}
