@@ -1,82 +1,122 @@
-*{
-    font-family: 'Open sans', sans-serif;
+/* Definição de fonte global */
+* {
+font-family: 'Open Sans', sans-serif;
 }
 
-:root{
-    --bg-red-1:#E02500;
-    --bg-red-2:#cccccc97;
-    --bg-red-3:#E15601;
-    --bg-red-3:#613630;
+/* Variáveis globais */
+:root {
+    --bg-red-1: #E02500;
+    --bg-red-2: #cccccc97;
+    --bg-blue-electric: #0033cc;
+    --bg-gray-dark: #333333;
+    --bg-green-neon: #39FF14;
+    --bg-white: #FFFFFF;
     --margin-top: 100px;
 }
 
-.logo-text{
-    font-size: 1.8rem;
-    color: var(--bg-red-2);
-    font-weight: 800;
+/* Estilo do corpo */
+body {
+background-color: var(--bg-white) !important;
+color: var(--bg-gray-dark) !important;
 }
 
-.sub-title{
-    font-size: 2.5rem;
-    color: black;
-    font-weight: 800;
-    text-align: center;
-}
-.logo-icon{
-    color: var(--bg-red-1);
+/* Estilo do texto do logo */
+.logo-text {
+font-size: 1.8rem !important;
+color: var(--bg-red-1) !important;
+font-weight: 800 !important;
 }
 
-.my-mt{
-    margin-top: var(--margin-top);
+/* Estilo do subtítulo */
+.sub-title {
+font-size: 2.5rem !important;
+color: black !important;
+font-weight: 800 !important;
+text-align: center !important;
 }
 
-.nav-item a{
-    font-weight: 700;
-    font-size: 18px;
+/* Estilo do ícone do logo */
+.logo-icon {
+color: var(--bg-red-1) !important;
 }
 
-.my-title{
-    color: var(--bg-red-1);
+/* Margem personalizada */
+.my-mt {
+margin-top: var(--margin-top) !important;
 }
 
-.bg-red-2{
-    background-color: var(--bg-red-2);
+/* Estilo do item de navegação */
+.nav-item a {
+color: var(--bg-gray-dark) !important;
+font-weight: 700 !important;
+font-size: 18px !important;
 }
 
-.sobre{
-    min-height: 60vh;
+/* Estilo do título personalizado */
+.my-title {
+color: var(--bg-red-1) !important;
 }
 
-.icon{
-    font-size: 60px;
-    color: var(--bg-red-1);
-    margin: 24px 0;
-    transition: .5s;
+/* Fundo vermelho claro */
+.bg-red-2 {
+background-color: var(--bg-red-2) !important;
 }
 
-.card{
-    transition: .5s;
+/* Estilo da seção 'sobre' */
+.sobre {
+background-color: var(--bg-white) !important;
+min-height: 60vh !important;
 }
 
-.card:hover{
-    background-color: var(--bg-red-2);
+/* Estilo do ícone */
+.icon {
+font-size: 60px !important;
+color: var(--bg-blue-electric) !important;
+margin: 24px 0 !important;
+transition: .5s !important;
 }
 
-.card:hover .icon{
-    transform: scale(1.5);
+/* Estilo do cartão */
+.card {
+border: 1px solid var(--bg-gray-dark) !important;
+transition: .5s !important;
 }
 
-.icon-social, .icon-contrato{
-    font-size: 2rem;
-    color: var(--bg-red-1);
-    transition: .5s;
+/* Efeito hover do cartão */
+.card:hover {
+background-color: var(--bg-red-2) !important;
 }
 
-.icon-social:hover{
-    color: var(--bg-red-3);
+/* Transformação do ícone dentro do cartão ao hover */
+.card:hover .icon {
+transform: scale(1.5) !important;
 }
 
-textarea{
-    resize: none;
-    height: 130px;
+/* Botão primário */
+.btn-primary {
+background-color: var(--bg-red-1) !important;
+border: none !important;
+}
+
+/* Efeito hover do botão primário */
+.btn-primary:hover {
+background-color: var(--bg-blue-electric) !important;
+}
+
+/* Estilo dos ícones sociais e de contrato */
+.icon-social, .icon-contrato {
+font-size: 2rem !important;
+color: var(--bg-red-1) !important;
+transition: .5s !important;
+}
+
+/* Efeito hover dos ícones sociais e de contrato */
+.icon-social:hover, .icon-contrato:hover {
+color: var(--bg-green-neon) !important;
+}
+
+/* Estilo do textarea */
+textarea {
+resize: none !important;
+height: 130px !important;
 }
