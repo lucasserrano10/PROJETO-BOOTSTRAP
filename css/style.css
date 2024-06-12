@@ -18,8 +18,9 @@
 
 .sub-title{
     font-size: 2.5rem;
-    color: var(--bg-red-1);
+    color: black;
     font-weight: 800;
+    text-align: center;
 }
 .logo-icon{
     color: var(--bg-red-1);
