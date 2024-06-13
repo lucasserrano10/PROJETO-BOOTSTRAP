@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js">
 
+    <!--MEU JS-->
+    <link rel="stylesheet" href="./javascript/script.js">
     <!--MINHA CSS-->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -20,7 +23,7 @@
     <div class="container mt-3">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-            <a class="navbar-brand logo-text" href="#"><i class="mx-2"><img src="./imagens/case/tech.png" alt="icon" class="mx-1 logo-icon"></i>CODETECH</a>
+            <a class="navbar-brand logo-text" href="#"><i class="mx-2"><img src="./imagens/case/tech.png" alt="icon" class="mx-1 logo-icon" ></i>CODETECH</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,10 +33,10 @@
                     <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#valores">Valores</a>
+                    <a class="nav-link" href="#contexto">Contexto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#solucoes">Soluções</a>
+                    <a class="nav-link" href="#solucao">Solução</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#equipe">Equipe</a>
@@ -50,12 +53,12 @@
     <div class="container mt-5 sobre" id="sobre">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-6">
-                <h2 class="my-title display-5 my-4">O futuro da Formula-E Começa aqui</h2>
+                <h2 class="my-title display-5 my-4" >O futuro da Formula-E Começa aqui</h2>
                 <h3 class="mb-4">Somos uma equipe de desenvolvedores talentosos criando projetos inovadores</h3>
                 <a href="" class="btn btn-primary btn-lg">Mais informações</a>
             </div>
             <div class="col-lg-6 text-center">
-                <img src="./imagens/case/imagem-formulaE.jpg" alt="formula-e" class="img-fluid my-5 rounded">
+                <img src="./imagens/case/imagem-formulaE.jpg" alt="formula-e" class="img-fluid my-5 rounded" onclick="alerta()">
             </div>
         </div>
     </div>
@@ -65,11 +68,11 @@
     <div class="container my-5">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-lg-6 bg-red-2 m-0 pe-0">
-                <h4 class="my-1 my-title mt-4" id="valores">Valores</h4>
-                <h4 class=" my-4">Valorizamos a sustentabilidade, a inovação tecnológica e a performance, guiados pela paixão pelo automobilismo e pela visão de um planeta mais limpo.</h4>
-                <p class="mb-5 my-title">Nosso time é formado por engenheiros, pilotos e técnicos de classe mundial, todos unidos pelo objetivo de redefinir o futuro das corridas elétricas.</p>
+                <h4 class="my-1 my-title mt-4" id="contexto">Falta De Público na Formula E</h4>
+                <h4 class=" my-4">A Fórmula E enfrenta baixa popularidade no Brasil devido à falta de tradição em esportes de automobilismo elétrico.</h4>
+                <p class="mb-5 my-title">A ausência de pilotos brasileiros de destaque na categoria também contribui para o desinteresse do público local,  menor cobertura midiática em comparação à Fórmula 1, e desafios logísticos e financeiros para realizar eventos no país.</p>
                 <a href="#" class="btn btn-primary btn-lg text-light mb-5">
-                    Conheça Agora
+                    Saiba Mais
                 </a>
             </div>
             <div class="col-lg-6 text-center m-0 p-0">
@@ -81,13 +84,13 @@
                     </div>
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./imagens/carousel/carrossel1.jpg" class="d-block w-100" alt="explicando-estrategia">
+                        <img src="./imagens/carousel/formulae-ia.png" class="d-block w-100" alt="explicando-estrategia">
                     </div>
                     <div class="carousel-item">
-                        <img src="./imagens/carousel/carrossel2.jpg" class="d-block w-100" alt="reuniao de marketing">
+                        <img src="./imagens/carousel/formulae-ia2.png" class="d-block w-100" alt="reuniao de marketing">
                     </div>
                     <div class="carousel-item">
-                        <img src="./imagens/carousel/carrossel3.jpg" class="d-block w-100" alt="marketing-estrategia">
+                        <img src="./imagens/carousel/formulae-ia3.png" class="d-block w-100" alt="marketing-estrategia">
                     </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -101,13 +104,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>  
     <!--FIM VALORES-->
 
     <!--SOLUÇÕES-->
     <section class="container my-5" id="solucoes">
-        <h4 class="my-1 sub-title mt-5" id="valores">Valores</h4>
-        <h3 class="text-center my-title mb-5">Veja As Vantagens do Futuro Automobilismo Mundial</h3>
+        <h4 class="my-1 sub-title mt-5" id="solucao" onclick="alerta()">Vantagens Da Formula E</h4>
+        <h3 class="text-center my-title mb-5">Veja A Diferença em Assistir o Futuro Do Automobilismo Mundial</h3>
 
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-lg-4 my-2">
@@ -290,6 +293,11 @@
 
     <!--BOOTSTRAP1 JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--CHAMADA DO SWEETALERT-->
+    <script src="./javascript/script.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.all.min.js"></script>
+
+
 
 </body>
 </html>
