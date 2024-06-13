@@ -16,8 +16,11 @@
 Este projeto foi construído utilizando as seguintes tecnologias:
 
 **HTML**: A base do nosso site, fornecendo a estrutura e o conteúdo.
+
 **CSS**: Utilizado para estilização e criação de um design visual atraente.
+
 **JavaScript**: Adiciona interatividade e comportamento dinâmico ao site.
+
 **Bootstrap**: Um poderoso framework front-end que auxilia no design de sites responsivos e mobile-first.
 
 ## Funcionalidades
