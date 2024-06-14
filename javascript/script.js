@@ -5,3 +5,11 @@ function alerta(){
         icon: "success"
     });
 }
+
+function enviado(){
+    Swal.fire({
+        title: "Logado Com suceesso",
+        text: "Logo, Enviaremos Novidades Sobre a Formula E, Obrigado !",
+        icon: "success"
+    });
+}
