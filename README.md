@@ -21,7 +21,6 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 **JavaScript**: Adiciona interatividade e comportamento dinâmico ao site.
 
-**Bootstrap**: Um poderoso framework front-end que auxilia no design de sites responsivos e mobile-first.
 
 ## Funcionalidades
 
