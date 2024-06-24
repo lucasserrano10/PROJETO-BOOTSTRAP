@@ -8,7 +8,7 @@ function alerta(){
 
 function enviado(){
     Swal.fire({
-        title: "Logado Com suceesso",
+        title: "Logado Com sucesso",
         text: "Logo, Enviaremos Novidades Sobre a Formula E, Obrigado !",
         icon: "success"
     });
